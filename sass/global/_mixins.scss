@@ -23,6 +23,15 @@
 	        transition: all 400ms linear;
 }
 
+@mixin justify{
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    line-height: 0;
+    font-size: 1px;
+    text-justify: newspaper;
+}
+
 @mixin transition($time) {
   -webkit-transition: all $time ease-out;
   -moz-transition: all $time ease-out;

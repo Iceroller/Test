@@ -1,7 +1,7 @@
 /* Global Elements ---------------------------*/
 
 html {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   font-size: 62.5%;  // don't change that to use rems
   opacity: 0;
@@ -11,11 +11,11 @@ html {
 
 body {
   width: 100%;
-  height:100%;
-  background-color: #fff;
+  height: 100%;
   color: $font-color;
   font-family: $brand-font-1, $brand-font-2, Arial, Helvetica, sans-serif;
   @include font-size(16);
+    min-width: 300px;
 }
 /*
  * Modifiers
@@ -25,15 +25,27 @@ body {
 .wysiwyg {}
 
 #main {
-  overflow: hidden;
-  display: block;
-  min-height: 200px;
-  padding: 96px 0 0;
-  img{
-    max-width: 100%
-  }
+    overflow: hidden;
+    display: block;
+    min-height: 200px;
+    &:after{
+        @include clearfix;
+    }
+    #content{
+        width: 68%;
+        display: inline-block;
+    }
+    #aside{
+        width: 30%;
+        height: 300px;
+        @include box-treatment;
+        display: inline-block;
+        float: right;
+    }   
+    img{
+        max-width: 100%;
+    }
 }
-
 .visualhidden{
   position: absolute;
   top:-99999px;
@@ -78,4 +90,19 @@ body {
   fieldset{
     padding: 0;
   }
+}
+
+////////////////////////
+
+//           TAB
+
+///////////////////////////
+
+@media (max-width: 978px){
+    #main #content{
+        width: 100%;
+    }
+    #main #aside{
+        display: none;
+    }
 }

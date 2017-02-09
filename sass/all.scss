@@ -9,10 +9,14 @@
 @import "global/typography.scss";
 @import "global/buttons.scss";
 @import "global/forms.scss";
+@import "global/fonts.scss";
 @import "vendor/icons.scss";
 @import "vendor/jspane.scss";
 @import "vendor/customSelectBox.scss";
+@import "partials/mobMenu.scss";
 @import "partials/header.scss";
+@import "partials/nav.scss";
+@import "partials/buckets.scss";
+@import "partials/news.scss";
+@import "partials/lowerBlock.scss";
 @import "partials/footer.scss";
-
-

@@ -2,10 +2,11 @@
 
 $wdl: 1408px; /*width-desktop-medium*/
 $wdm: 1248px; /*width-desktop-medium*/
-$wds: 1008px;  /*width- desktop-small*/
-$wt: 768px;   /*width-tablet*/
-$wml: 736px;   /*width-tablet*/
-$wm: 100%;     /*width-mobile*/
+$wds: 978px;  /*width- desktop-small*/
+$wt: 748px;   /*width-tablet*/
+$wml: 683px;   /*width-tablet*/
+$wml2: 530px;
+$wm: 95%;     /*width-mobile*/
 
 /*---Grid Variables -----------------------------------------*/
 
@@ -38,7 +39,7 @@ $mw: 1.065340909090909%;
 
 .container {
   @include box_treatment;
-  width: 100%;
+  width: 1218px;
   max-width: $wdl;
   position: relative;
   margin: auto;
@@ -74,6 +75,17 @@ $mw: 1.065340909090909%;
   @include breakpoint(mobile) {
     max-width: $wm;
   }
+}
+
+@media (max-width: $wt){
+    .container{
+        width: 95%;
+    }
+}
+@media (max-width: 748px){
+    .container{
+        width: 95%;
+    }
 }
 
 

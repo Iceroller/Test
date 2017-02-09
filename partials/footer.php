@@ -1,13 +1,34 @@
 <footer id="footer">
-    this is footer
-
-    <script src="js/libs/jquery.min.js"></script>
-    <script src="js/libs/modernizr-2.6.2.min.js"></script>
-    <script src="js/libs/jquery.easing.1.3.js"></script>
-    <script src="js/libs/jquery.mousewheel.js"></script>
-    <script src="js/libs/jScrollPane.js"></script>
-    <script src="js/libs/SelectBox.js"></script>
-    <script src="js/libs/ScrollToPlugin.min.js"></script>
-    <script src="js/libs/TweenMax.min.js"></script>
-    <script src="js/script.min.js"></script>
+    <div class="container">
+        <div class="top">
+            <div class="wrap">
+                <div class="circle1">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="circle2">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="circle3">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="circle4">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="bot">
+            <p>&copy; 2001 - 2015 <span>registered.</span></p>
+        </div>
+    </div>
+    
+    
+    
+    <?php include('partials/script-connections.php')?>
+    
 </footer>

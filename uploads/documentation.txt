@@ -1,0 +1,31 @@
+1) all the elements are modules, having it's own scss file: e g 
+- header
+- navigation
+- breadcrumbs
+- buckets
+- sidenav
+- contact-form
+- socials
+- footer
+
+2) all the icons are svg elements. there is an assets folder. if there is no apropriate svg in assets - you can use any placeholder instead from iconfinder.com for now.
+3) logo is clickable
+4) menu should be an html 5 element. active & hover state shown in orange. 
+5) the whole bucket is a clickable element, but you should be able to click an author or readmore, or subscribe button any way;
+	the image must be adjustable (we can place any image of any size to the article preview and nothing will collapse, it covers the whole area of the article);
+	the text can be of any size, buckets should adjust their height in a row (no height on bucket), the main article cuts the paragraph automatically (use any plugin you want to reach the effect)
+6) arrow of submit button in form below rotates down when hovered; 
+select arrow transforms up and down when select is clicked, user has to be able to use tab button on keyboard to navigate through the form elements, select should open when tab is clicked, 
+use any plugin you want to customize select
+7) orange article has image background and color overlay. text is vertically aligned
+8) arrow in article should be done by css only, no icons
+
+tablet:
+ - right panel has no news now, form is full width
+- buckets now have 2 in a row, still adjust height no matter how much text they have inside
+
+mobile:
+- menu is now opened by clicking icon on the right of header. (use same,single html structure)
+- buckets now have one in a row
+- orange article now has no arrow
+- form has only one input per row 

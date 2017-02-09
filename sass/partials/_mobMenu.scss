@@ -1,0 +1,41 @@
+.wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    @include transition-treatment_2;
+    &.open-sidebar {
+        left: 240px;
+    }
+    #sidebar {
+    position: absolute;
+    left: -240px;
+    background: $primary-color;
+    width: 240px;
+    height: 100%;
+    @include box-treatment;
+        ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        }
+        li {
+        margin: 0;
+            a {
+                padding: 15px 20px;
+                font-size: 16px;
+                font-weight: 100;
+                color: $font-color-1;
+                text-decoration: none;
+                display: block;
+                border-bottom: 1px solid $font-color-1;
+                @include transition-treatment_2;
+                text-transform: uppercase;
+                &:hover {
+                    background: $secondary-color;
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}

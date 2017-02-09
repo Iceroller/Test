@@ -1,0 +1,2994 @@
+@charset "UTF-8";
+/* SCSS Compiled */
+/* line 55, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 63, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/* line 74, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 84, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+[hidden], template {
+  display: none; }
+
+/* line 97, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 113, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/* line 119, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+body {
+  margin: 0; }
+
+/* line 132, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+a {
+  background: transparent; }
+  /* line 139, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+  a:focus {
+    outline: thin dotted; }
+  /* line 146, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+  a:hover,
+  a:active {
+    outline: 0; }
+
+/* line 159, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 164, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+/* line 169, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+/* line 174, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+/* line 179, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+/* line 184, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/* line 192, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 199, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 211, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 217, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 236, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 246, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 254, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/* line 271, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+/* line 279, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 287, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 294, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 298, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 350, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+img {
+  border: 0; }
+
+/* line 359, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 369, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* line 386, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 397, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal; }
+
+/* line 414, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
+
+/* line 426, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+button, input {
+  line-height: normal; }
+
+/* line 436, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 451, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 462, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/* line 470, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 479, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 490, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 498, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+  /* line 507, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+/* line 517, C:/OpenServer/domains/Test/sass/vendor/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/*
+ * Variables
+ */
+/*usage  @include font-size(13);*/
+/*width-desktop-medium*/
+/*width-desktop-medium*/
+/*width- desktop-small*/
+/*width-tablet*/
+/*width-tablet*/
+/*width-mobile*/
+/*---Grid Variables -----------------------------------------*/
+/* line 40, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 1218px;
+  max-width: 1408px;
+  position: relative;
+  margin: auto;
+  overflow: hidden; }
+  /* line 49, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+  .container:before,
+  .container:after {
+    content: "";
+    display: table;
+    position: relative; }
+  /* line 55, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+  .container:after {
+    clear: both; }
+  @media (max-width: 1408px) {
+    /* line 40, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+    .container {
+      max-width: 1248px; } }
+  @media (max-width: 1248px) {
+    /* line 40, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+    .container {
+      max-width: 978px; } }
+  @media (max-width: 978px) {
+    /* line 40, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+    .container {
+      max-width: 748px; } }
+  @media (max-width: 748px) {
+    /* line 40, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+    .container {
+      max-width: 683px; } }
+  @media (max-width: 683px) {
+    /* line 40, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+    .container {
+      max-width: 95%; } }
+
+@media (max-width: 748px) {
+  /* line 81, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+  .container {
+    width: 95%; } }
+
+@media (max-width: 748px) {
+  /* line 86, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+  .container {
+    width: 95%; } }
+
+/* line 126, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-2 {
+  width: calc((4.11932% * 2) + (1.06534% * 2)); }
+
+/* line 130, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-3 {
+  width: calc((4.11932% * 3) + (1.06534% * 4)); }
+
+/* line 134, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-4 {
+  width: calc((4.11932% * 4) + (1.06534% * 6)); }
+
+/* line 138, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-5 {
+  width: calc((4.11932% * 5) + (1.06534% * 8)); }
+
+/* line 142, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-6 {
+  width: calc((4.11932% * 6) + (1.06534% * 10)); }
+
+/* line 146, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-7 {
+  width: calc((4.11932% * 7) + (1.06534% * 12)); }
+
+/* line 150, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-8 {
+  width: calc((4.11932% * 8) + (1.06534% * 14)); }
+
+/* line 154, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-9 {
+  width: calc((4.11932% * 9) + (1.06534% * 16)); }
+
+/* line 158, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-10 {
+  width: calc((4.11932% * 10) + (1.06534% * 18)); }
+
+/* line 162, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-11 {
+  width: calc((4.11932% * 11) + (1.06534% * 20)); }
+
+/* line 166, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-12 {
+  width: calc((4.11932% * 12) + (1.06534% * 22)); }
+
+/* line 170, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-13 {
+  width: calc((4.11932% * 13) + (1.06534% * 24)); }
+
+/* line 174, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-14 {
+  width: calc((4.11932% * 14) + (1.06534% * 26)); }
+
+/* line 178, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-15 {
+  width: calc((4.11932% * 15) + (1.06534% * 28)); }
+
+/* line 182, C:/OpenServer/domains/Test/sass/global/_responsive.scss */
+.col-16 {
+  width: calc((4.11932% * 16) + (1.06534% * 30)); }
+
+/* Brand Colors ------------------------------------------------*/
+/* Global Elements ---------------------------*/
+/* line 3, C:/OpenServer/domains/Test/sass/global/_global.scss */
+html {
+  min-height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  opacity: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 12, C:/OpenServer/domains/Test/sass/global/_global.scss */
+body {
+  width: 100%;
+  height: 100%;
+  color: #ccc;
+  font-family: "Open Sans", sans-serif, "MyriadPro-Regular", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  min-width: 300px; }
+
+/*
+ * Modifiers
+ */
+/* line 23, C:/OpenServer/domains/Test/sass/global/_global.scss */
+.f-l {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+/* line 24, C:/OpenServer/domains/Test/sass/global/_global.scss */
+.f-r {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+/* line 27, C:/OpenServer/domains/Test/sass/global/_global.scss */
+#main {
+  overflow: hidden;
+  display: block;
+  min-height: 200px; }
+  /* line 81, C:/OpenServer/domains/Test/sass/global/_mixins.scss */
+  #main:after:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0; }
+  /* line 34, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  #main #content {
+    width: 68%;
+    display: inline-block; }
+  /* line 38, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  #main #aside {
+    width: 30%;
+    height: 300px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right; }
+  /* line 45, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  #main img {
+    max-width: 100%; }
+
+/* line 49, C:/OpenServer/domains/Test/sass/global/_global.scss */
+.visualhidden {
+  position: absolute;
+  top: -99999px;
+  left: -99999px; }
+
+/*fade in blocks*/
+/* line 55, C:/OpenServer/domains/Test/sass/global/_global.scss */
+.display {
+  width: 48%;
+  min-height: 200px;
+  background: white;
+  position: relative;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+  /* line 65, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  .display:nth-child(even) {
+    margin-right: 0; }
+
+@media (max-width: 978px) {
+  /* line 76, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  .default-styles .col-16,
+  .default-styles .col-10,
+  .default-styles .col-8,
+  .default-styles .col-6,
+  .default-styles .col-4 {
+    width: calc((4.11932% * 16) + (1.06534% * 30)); } }
+
+@media (max-width: 978px) {
+  /* line 84, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  .default-styles .col-10,
+  .default-styles .col-8,
+  .default-styles .col-6,
+  .default-styles .col-4 {
+    margin: 0 auto;
+    width: 100%; } }
+
+/* line 90, C:/OpenServer/domains/Test/sass/global/_global.scss */
+.default-styles fieldset {
+  padding: 0; }
+
+@media (max-width: 978px) {
+  /* line 102, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  #main #content {
+    width: 100%; }
+  /* line 105, C:/OpenServer/domains/Test/sass/global/_global.scss */
+  #main #aside {
+    display: none; } }
+
+/* line 2, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.row {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 5px 0; }
+  /* line 10, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+  .row:before, .row:after {
+    content: " ";
+    display: table;
+    clear: both; }
+
+/* line 19, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+[class^="col"], [class*=" col"] {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 4.11932%;
+  margin: 0 1.06534%;
+  min-height: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  /* line 30, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+  [class^="col"]:before, [class^="col"]:after, [class*=" col"]:before, [class*=" col"]:after {
+    content: " ";
+    display: table;
+    clear: both;
+    position: relative; }
+
+/* line 38, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.color [class^="col"], .color [class*=" col"] {
+  background-color: grey; }
+
+/* line 41, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.color .container {
+  background: black; }
+
+/* line 45, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+[class^="col"].center-box, [class*=" col"].center-box {
+  margin: auto;
+  float: none !important;
+  display: block; }
+
+/* line 85, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-2 {
+  width: calc((4.11932% * 2) + (1.06534% * 2)); }
+
+/* line 89, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-3 {
+  width: calc((4.11932% * 3) + (1.06534% * 4)); }
+
+/* line 93, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-4 {
+  width: calc((4.11932% * 4) + (1.06534% * 6)); }
+
+/* line 97, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-5 {
+  width: calc((4.11932% * 5) + (1.06534% * 8)); }
+
+/* line 101, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-6 {
+  width: calc((4.11932% * 6) + (1.06534% * 10)); }
+
+/* line 105, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-7 {
+  width: calc((4.11932% * 7) + (1.06534% * 12)); }
+
+/* line 109, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-8 {
+  width: calc((4.11932% * 8) + (1.06534% * 14)); }
+
+/* line 113, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-9 {
+  width: calc((4.11932% * 9) + (1.06534% * 16)); }
+
+/* line 117, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-10 {
+  width: calc((4.11932% * 10) + (1.06534% * 18)); }
+
+/* line 121, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-11 {
+  width: calc((4.11932% * 11) + (1.06534% * 20)); }
+
+/* line 125, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-12 {
+  width: calc((4.11932% * 12) + (1.06534% * 22)); }
+
+/* line 129, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-13 {
+  width: calc((4.11932% * 13) + (1.06534% * 24)); }
+
+/* line 133, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-14 {
+  width: calc((4.11932% * 14) + (1.06534% * 26)); }
+
+/* line 137, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-15 {
+  width: calc((4.11932% * 15) + (1.06534% * 28)); }
+
+/* line 141, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.col-16 {
+  width: calc((4.11932% * 16) + (1.06534% * 30)); }
+
+/* line 147, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.animate {
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
+  /* line 152, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+  .animate:nth-child(odd) {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s; }
+
+/* line 157, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.fade-in {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+/* line 163, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+.dev-grid {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 400ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 400ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999999;
+  pointer-events: none;
+  padding: 0;
+  margin: 0 auto !important; }
+  /* line 176, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+  .dev-grid .container {
+    height: 100%;
+    padding: 0; }
+  /* line 178, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+  .dev-grid [class^="col-"], .dev-grid [class*=" col-"] {
+    height: 100%;
+    background-color: yellow; }
+  /* line 183, C:/OpenServer/domains/Test/sass/global/_grid.scss */
+  .dev-grid.on {
+    opacity: 0.4;
+    filter: alpha(opacity=40); }
+
+/* Brand Fonts & Treatment -------------------------------------*/
+/* line 3, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+.h1, h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 31px;
+  font-size: 3.1rem;
+  line-height: 1;
+  margin: 0;
+  color: #ee632f; }
+
+/* line 11, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+.h2, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 27px;
+  font-size: 2.7rem;
+  line-height: 1;
+  margin: 0; }
+
+/* line 18, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+.h3, h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  font-size: 2.1rem;
+  line-height: 1;
+  margin: 0;
+  color: #ee632f; }
+
+/* line 26, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+.h4, h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1;
+  margin: 0;
+  color: #ee632f; }
+
+/* line 34, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+.h5, h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 1;
+  margin: 0; }
+
+/* line 41, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+.h6, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin: 0; }
+
+/* line 47, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+h1 {
+  margin: 1em 0 0.5em; }
+
+/* line 48, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+h2 {
+  margin: 1em 0 0.5em; }
+
+/* line 49, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+h3 {
+  margin: 1em 0 0.5em; }
+
+/* line 50, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+h4 {
+  margin: 1em 0 0.5em; }
+
+/* line 51, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+h5 {
+  margin: 1em 0 0.5em; }
+
+/* line 52, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+h6 {
+  margin: 1em 0 0.5em; }
+
+/* line 53, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-font-size: 16px;
+  font-font-size: 1.6rem;
+  padding: 0;
+  line-height: 1.35em;
+  margin: 0 0 25px; }
+
+/* line 60, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+.link, a {
+  color: #ee632f;
+  text-decoration: none; }
+  /* line 66, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+  .link:active, a:active {
+    color: inherit; }
+
+/* line 72, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+b {
+  font-weight: 600;
+  color: #ccc; }
+
+/* line 75, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+a {
+  outline: none !important; }
+
+/* line 83, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 10px 25px; }
+  @media (max-width: 683px) {
+    /* line 83, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+    ul {
+      padding: 10px; } }
+  /* line 90, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+  ul li {
+    position: relative;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.35em;
+    padding-left: 48px;
+    margin: 0 0 27px; }
+    @media (max-width: 683px) {
+      /* line 90, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+      ul li {
+        padding-left: 20px; } }
+    /* line 100, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+    ul li:before {
+      position: absolute;
+      left: 25px;
+      top: 0;
+      content: "\00B7";
+      color: #ee632f;
+      font-weight: 400;
+      width: 1px;
+      height: 1px;
+      font-size: 28px;
+      font-size: 20px;
+      font-size: 2rem;
+      line-height: 1em; }
+      @media (max-width: 683px) {
+        /* line 100, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+        ul li:before {
+          left: 0; } }
+
+/* line 118, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+ol {
+  margin: 0;
+  padding: 10px 25px;
+  list-style-type: none;
+  counter-reset: point; }
+  @media (max-width: 683px) {
+    /* line 118, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+    ol {
+      padding: 10px; } }
+  /* line 126, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+  ol li {
+    margin: 0 0 20px;
+    padding: 0 0 0 50px;
+    line-height: 1.8em;
+    list-style: none;
+    position: relative; }
+    /* line 132, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+    ol li:before {
+      counter-increment: point 1;
+      content: counter(point) ".";
+      position: absolute;
+      left: 20px;
+      top: 0;
+      width: 20px;
+      height: 14px;
+      line-height: 1.8em;
+      font-size: 14px;
+      font-size: 1.4rem;
+      color: #ee632f;
+      text-align: center; }
+
+/* line 150, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+em {
+  font-style: italic; }
+
+/* line 154, C:/OpenServer/domains/Test/sass/global/_typography.scss */
+strong {
+  font-weight: 600; }
+
+/* line 5, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+.button-1,
+.button-2,
+input.button-2,
+button.button-2,
+a.button-2,
+.button-3,
+input.button-3,
+button.button-3,
+a.button-3,
+.button-4,
+input.button-4,
+button.button-4,
+a.button-4,
+.button-5,
+input.button-5,
+button.button-5,
+a.button-5,
+input.button-1,
+input.button-2,
+input.button-3,
+input.button-4,
+input.button-5,
+button.button-1,
+button.button-2,
+button.button-3,
+button.button-4,
+button.button-5,
+a.button-1, a.button-2,
+a.button-3,
+a.button-4,
+a.button-5 {
+  color: #fff;
+  background-color: #ee632f;
+  display: inline-block;
+  padding: 20px 15px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 20px;
+  border-bottom: none; }
+  /* line 15, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+  .button-1:after,
+  .button-2:after,
+  .button-3:after,
+  .button-4:after,
+  .button-5:after,
+  input.button-1:after,
+  input.button-2:after,
+  input.button-3:after,
+  input.button-4:after,
+  input.button-5:after,
+  button.button-1:after,
+  button.button-2:after,
+  button.button-3:after,
+  button.button-4:after,
+  button.button-5:after,
+  a.button-1:after, a.button-2:after,
+  a.button-3:after,
+  a.button-4:after,
+  a.button-5:after {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+    padding: 0 10px;
+    content: "\25bb"; }
+  /* line 29, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+  .button-1:hover,
+  .button-2:hover,
+  .button-3:hover,
+  .button-4:hover,
+  .button-5:hover,
+  input.button-1:hover,
+  input.button-2:hover,
+  input.button-3:hover,
+  input.button-4:hover,
+  input.button-5:hover,
+  button.button-1:hover,
+  button.button-2:hover,
+  button.button-3:hover,
+  button.button-4:hover,
+  button.button-5:hover,
+  a.button-1:hover, a.button-2:hover,
+  a.button-3:hover,
+  a.button-4:hover,
+  a.button-5:hover {
+    background-color: #f7f7f7;
+    color: #fff; }
+
+/* line 38, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+.button-2,
+input.button-2,
+button.button-2,
+a.button-2 {
+  color: #fff;
+  background-color: #ee632f; }
+  /* line 43, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+  .button-2:hover,
+  input.button-2:hover,
+  button.button-2:hover,
+  a.button-2:hover {
+    background-color: grey;
+    color: #fff; }
+
+/* line 53, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+.button-3,
+input.button-3,
+button.button-3,
+a.button-3 {
+  color: #fff;
+  background-color: #000; }
+  /* line 58, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+  .button-3:hover,
+  input.button-3:hover,
+  button.button-3:hover,
+  a.button-3:hover {
+    background-color: grey;
+    color: #fff; }
+
+/* line 67, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+.button-4,
+input.button-4,
+button.button-4,
+a.button-4 {
+  color: #ee632f;
+  background-color: #fff;
+  border: 1px solid #ee632f; }
+  /* line 73, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+  .button-4:hover,
+  input.button-4:hover,
+  button.button-4:hover,
+  a.button-4:hover {
+    background-color: #ee632f;
+    color: #fff; }
+
+/* line 81, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+.button-5,
+input.button-5,
+button.button-5,
+a.button-5 {
+  color: #ee632f;
+  background-color: #fff;
+  border: 1px solid #ee632f; }
+  /* line 87, C:/OpenServer/domains/Test/sass/global/_buttons.scss */
+  .button-5:hover,
+  input.button-5:hover,
+  button.button-5:hover,
+  a.button-5:hover {
+    background-color: #ee632f;
+    color: #fff;
+    border-color: #ee632f; }
+
+/* =============================================================================
+	FORMS
+	========================================================================== */
+/* line 4, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+form, fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none; }
+
+/* line 5, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+label {
+  cursor: pointer; }
+
+/* line 6, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  *overflow: visible; }
+
+/* line 7, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input {
+  outline: none; }
+
+/*Iphone Border Radius Fix*/
+/* line 9, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input {
+  -webkit-border-radius: 0; }
+
+/* line 10, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+textarea {
+  -webkit-border-radius: 0; }
+
+/* line 11, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* mobile firefox too! */ }
+
+/* line 16, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+button[disabled], input[disabled] {
+  cursor: default; }
+
+/* line 17, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 18, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+button {
+  padding: 0; }
+
+/* line 19, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="checkbox"], input[type="radio"] {
+  width: 15px;
+  height: 16px;
+  padding: 0;
+  margin: 0; }
+
+/* line 20, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input, textarea, select {
+  font: 100% "Open Sans", sans-serif, "MyriadPro-Regular", sans-serif, Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+  color: #f7f7f7; }
+
+/* line 21, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+textarea {
+  resize: vertical;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  vertical-align: top;
+  outline: none; }
+
+/* line 22, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 23, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input:-moz-placeholder {
+  color: #f7f7f7; }
+
+/* line 24, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input::-moz-placeholder {
+  color: #f7f7f7;
+  opacity: 1; }
+
+/* line 25, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input::-webkit-input-placeholder {
+  color: #f7f7f7; }
+
+/* line 26, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input:-ms-input-placeholder {
+  color: #f7f7f7; }
+
+/* line 27, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input::placeholder {
+  color: #f7f7f7; }
+
+/* line 28, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input:focus:-moz-placeholder {
+  color: transparent; }
+
+/* line 29, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input:focus::-moz-placeholder {
+  color: transparent; }
+
+/* line 30, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+/* line 31, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input:focus:-ms-input-placeholder {
+  color: transparent; }
+
+/* line 32, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input:focus::placeholder {
+  color: transparent; }
+
+/* line 33, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input::-ms-clear {
+  display: none; }
+
+/* line 37, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+.form .fields {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  @media (max-width: 683px) {
+    /* line 37, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+    .form .fields {
+      display: block; } }
+  /* line 51, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+  .form .fields > .field {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding-left: .5em;
+    padding-right: .5em; }
+    @media (max-width: 683px) {
+      /* line 51, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields > .field {
+        padding: 0; } }
+  /* line 64, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+  .form .fields.two > .field,
+  .form .fields.two > .fields {
+    width: 50%; }
+    @media (max-width: 683px) {
+      /* line 64, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields.two > .field,
+      .form .fields.two > .fields {
+        width: 100%; } }
+  /* line 71, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+  .form .fields.two .field:first-child {
+    padding-left: 0; }
+  /* line 74, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+  .form .fields.two .field:last-child {
+    padding-right: 0; }
+  /* line 78, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+  .form .fields.two .field.narrow {
+    width: 30%; }
+    @media (max-width: 1248px) {
+      /* line 78, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields.two .field.narrow {
+        width: 40%; } }
+    @media (max-width: 978px) {
+      /* line 78, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields.two .field.narrow {
+        width: 30%; } }
+    @media (max-width: 683px) {
+      /* line 78, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields.two .field.narrow {
+        width: 100%; } }
+  /* line 90, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+  .form .fields.two .field.wide {
+    width: 70%; }
+    @media (max-width: 1248px) {
+      /* line 90, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields.two .field.wide {
+        width: 60%; } }
+    @media (max-width: 978px) {
+      /* line 90, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields.two .field.wide {
+        width: 70%; } }
+    @media (max-width: 683px) {
+      /* line 90, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+      .form .fields.two .field.wide {
+        width: 100%; } }
+
+/* line 110, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-bottom: 1em;
+  height: 50px;
+  padding: 0 20px;
+  color: #ccc; }
+
+/* line 120, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+textarea {
+  height: 194px;
+  padding: 20px;
+  resize: vertical; }
+
+/* line 125, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+label {
+  text-transform: lowercase;
+  display: block;
+  margin: 0.5em 0; }
+
+/* line 131, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  float: left; }
+
+/* line 134, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+.chk-label {
+  overflow: hidden; }
+
+/* line 138, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+select.custom {
+  display: none; }
+
+/* line 143, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 150, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="checkbox"] + label {
+  position: relative;
+  padding: 0;
+  font-size: 16px;
+  line-height: 2.5em;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 159, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="checkbox"] + label:before {
+  top: 5px;
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 15px; }
+
+/* line 174, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="checkbox"]:checked + label:before {
+  background: #ee632f;
+  color: #fff;
+  border: 1px solid #ccc;
+  background-image: url("../images/icon-check.svg");
+  background-size: 55%;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+/* line 185, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="checkbox"]:checked + label {
+  cursor: pointer;
+  color: #f7f7f7; }
+
+/*radio*/
+/* line 193, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 200, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="radio"] + label {
+  position: relative;
+  padding: 0;
+  font-size: 16px;
+  line-height: 2.5em;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 209, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="radio"] + label:before {
+  top: 5px;
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 22px;
+  width: 22px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-right: 15px; }
+
+/* line 225, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="radio"]:checked + label:before {
+  background: #ee632f;
+  color: #fff;
+  border: 1px solid #ccc;
+  background-image: url("../images/icon-check.svg");
+  background-size: 55%;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+/* line 236, C:/OpenServer/domains/Test/sass/global/_forms.scss */
+input[type="radio"]:checked + label {
+  cursor: pointer;
+  color: #f7f7f7; }
+
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: url("../fonts/myriadpro-regular.eot");
+  src: url("../fonts/myriadpro-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/myriadpro-regular.woff") format("woff"), url("../fonts/myriadpro-regular.ttf") format("truetype"), url("../fonts/myriadpro-regular.svg#myriadpro-regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../fonts/fontello/fontello.eot?10772923");
+  src: url("../fonts/fontello/fontello.eot?10772923#iefix") format("embedded-opentype"), url("../fonts/fontello/fontello.woff2?10772923") format("woff2"), url("../fonts/fontello/fontello.woff?10772923") format("woff"), url("../fonts/fontello/fontello.ttf?10772923") format("truetype"), url("../fonts/fontello/fontello.svg?10772923#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?10772923#fontello') format('svg');
+  }
+}
+*/
+/* line 36, C:/OpenServer/domains/Test/sass/global/_fonts.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 71, C:/OpenServer/domains/Test/sass/global/_fonts.scss */
+.icon-right-open:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 72, C:/OpenServer/domains/Test/sass/global/_fonts.scss */
+.icon-down-open:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 73, C:/OpenServer/domains/Test/sass/global/_fonts.scss */
+.icon-search:before {
+  content: '\f50d'; }
+
+/* '' */
+@font-face {
+  font-family: "np-group";
+  src: url("../fonts/np-group.eot");
+  src: url("../fonts/np-group.eot?#iefix") format("embedded-opentype"), url("../fonts/np-group.woff") format("woff"), url("../fonts/np-group.ttf") format("truetype"), url("../fonts/np-group.svg#np-group") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 15, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+[data-icon]:before {
+  font-family: "np-group" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  padding: 0 5px; }
+
+/* line 31, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "np-group" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  padding: 0 5px; }
+
+/* line 45, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-logo1:before {
+  content: "\e000"; }
+
+/* line 48, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-right:before {
+  content: "\e001"; }
+
+/* line 51, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-left:before {
+  content: "\e002"; }
+
+/* line 54, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-up:before {
+  content: "\e003"; }
+
+/* line 57, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-down:before {
+  content: "\e004"; }
+
+/* line 60, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-right-2:before {
+  content: "\e005"; }
+
+/* line 63, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-left-2:before {
+  content: "\e006"; }
+
+/* line 66, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-up-2:before {
+  content: "\e007"; }
+
+/* line 69, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-circle-arrow-down-2:before {
+  content: "\e008"; }
+
+/* line 72, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-phone:before {
+  content: "\e009"; }
+
+/* line 75, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-gear:before {
+  content: "\e00a"; }
+
+/* line 78, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-star:before {
+  content: "\e00b"; }
+
+/* line 81, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-handshake:before {
+  content: "\e00c"; }
+
+/* line 84, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-facebook:before {
+  content: "\e00d"; }
+
+/* line 87, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-twitter:before {
+  content: "\e00e"; }
+
+/* line 90, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-instagram:before {
+  content: "\e00f"; }
+
+/* line 93, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-pinterest:before {
+  content: "\e010"; }
+
+/* line 96, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-search:before {
+  content: "\e011"; }
+
+/* line 99, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-strategy:before {
+  content: "\e012"; }
+
+/* line 102, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-design:before {
+  content: "\e013"; }
+
+/* line 105, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-development:before {
+  content: "\e014"; }
+
+/* line 108, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-maintenance:before {
+  content: "\e015"; }
+
+/* line 111, C:/OpenServer/domains/Test/sass/vendor/_icons.scss */
+.icon-marketing:before {
+  content: "\e016"; }
+
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+/* line 13, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspContainer {
+  overflow: hidden;
+  position: relative; }
+
+/* line 19, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspPane {
+  position: absolute; }
+
+/* line 24, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspVerticalBar {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  width: 9px;
+  height: 100%;
+  /*background: red;*/ }
+
+/* line 34, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspHorizontalBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  /*background: red;*/ }
+
+/* line 45, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspVerticalBar *,
+.jspHorizontalBar * {
+  margin: 0;
+  padding: 0; }
+
+/* line 51, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspCap {
+  display: none; }
+
+/* line 56, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspHorizontalBar .jspCap {
+  float: left; }
+
+/* line 61, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspTrack {
+  /*background: #dde;*/
+  position: relative; }
+
+/* line 67, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspDrag {
+  background: #b32b2b;
+  opacity: 0.8;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer; }
+
+/* line 78, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+  float: left;
+  height: 100%; }
+
+/* line 84, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspArrow {
+  /*background: #50506d;*/
+  text-indent: -20000px;
+  display: block;
+  cursor: pointer; }
+
+/* line 92, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspArrow.jspDisabled {
+  cursor: default;
+  /*background: #80808d;*/ }
+
+/* line 98, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspVerticalBar .jspArrow {
+  height: 16px; }
+
+/* line 103, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspHorizontalBar .jspArrow {
+  width: 16px;
+  float: left;
+  height: 100%; }
+
+/* line 110, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspVerticalBar .jspArrow:focus {
+  outline: none; }
+
+/* line 115, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspCorner {
+  background: #eeeef4;
+  float: left;
+  height: 100%; }
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+/* line 123, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+* html .jspCorner {
+  margin: 0 -3px 0 0; }
+
+/* line 127, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspPane {
+  width: 100% !important; }
+
+/* line 131, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.jspDrag {
+  background: none;
+  /*here the color of drag can be applied*/
+  width: 4px;
+  top: 3px !important;
+  opacity: 0.8;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  z-index: 25; }
+
+/* line 139, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.overlay-menu .jspTrack {
+  background: none; }
+
+/* line 142, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.overlay-menu .jspVerticalBar .jspArrow {
+  display: none; }
+
+/* line 145, C:/OpenServer/domains/Test/sass/vendor/_jspane.scss */
+.overlay-menu .jspPane {
+  width: 100% !important; }
+
+/*custom selects*/
+/* line 3, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+select.custom {
+  display: none; }
+
+/* line 8, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect {
+  position: relative;
+  float: left;
+  margin: 0; }
+
+/* line 13, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectedValue {
+  cursor: pointer;
+  *zoom: 1;
+  padding: 0 30px 0 20px;
+  height: 60px;
+  text-align: left;
+  line-height: 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ccc;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 0 20px;
+  font-size: 1em; }
+
+/* line 29, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectList {
+  z-index: 20;
+  width: 100%;
+  position: absolute;
+  left: -999em;
+  top: -999em;
+  padding: 5px 0;
+  margin: 0;
+  list-style: none;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  font-weight: 500;
+  outline: none; }
+  /* line 43, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+  .customSelect .selectList * {
+    outline: none; }
+
+/* line 48, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect.select-open .selectList {
+  left: 0 !important;
+  top: 55px !important; }
+
+/* line 52, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectList dl {
+  background: #fff;
+  border-bottom: 1px solid #ccc; }
+
+/* line 56, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectList dl.defaultScrollbar {
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+/* line 60, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect dl, .customSelect dd {
+  margin: 0; }
+
+/* line 63, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect dd {
+  zoom: 1;
+  cursor: pointer;
+  height: 60px;
+  line-height: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  background: #fff;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  padding: 0 20px; }
+  /* line 79, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+  .customSelect dd:last-child {
+    border-bottom: 0; }
+
+/* line 83, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .disabled {
+  color: #999;
+  cursor: default; }
+
+/* line 87, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selected {
+  text-decoration: none; }
+
+/* line 90, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectList dd.hovered {
+  background: grey;
+  color: #ee632f; }
+
+/* line 94, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectList dd.disabled.hovered {
+  background: none;
+  color: #999; }
+
+/* line 98, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect dt {
+  font-weight: bold;
+  font-style: italic;
+  padding: 2px 10px 2px 6px; }
+
+/* line 103, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.hasJS select.custom {
+  position: absolute;
+  left: -999em; }
+
+/* line 107, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.hasJS select.custom.use-default {
+  position: absolute;
+  left: auto;
+  height: auto;
+  width: 100%;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  opacity: 0;
+  /* prevents iOS from zooming in on field */
+  font-size: 16px; }
+
+/* line 120, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect.disabled .selectedValue {
+  border: 1px solid #ccc;
+  cursor: default; }
+
+/* line 124, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .caret {
+  display: inline-block;
+  vertical-align: top;
+  width: 14px;
+  height: 12px; }
+  /* line 129, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+  .customSelect .caret:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "\25bc";
+    font-size: 14px;
+    color: #ccc; }
+
+/* line 140, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.select-open.customSelect .caret:before {
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+/* line 143, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectValueWrap {
+  position: relative; }
+
+/* line 146, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .selectValueWrap .caret {
+  position: absolute;
+  top: 50%;
+  margin: -4px 0 0 0;
+  right: 15px;
+  cursor: pointer; }
+
+/* line 153, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .jspPane {
+  overflow-x: hidden; }
+
+/* line 156, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .jspVerticalBar {
+  background: none;
+  width: 8px; }
+
+/* line 160, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .jspHorizontalBar {
+  height: 0;
+  overflow: hidden; }
+
+/* line 164, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .jspTrack {
+  background: none;
+  right: 5px;
+  border-radius: 5px; }
+
+/* line 169, C:/OpenServer/domains/Test/sass/vendor/_customSelectBox.scss */
+.customSelect .jspDrag {
+  border-radius: 5px;
+  color: #ffffff;
+  opacity: .5;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #363636;
+  *background-color: #222222;
+  background-image: -moz-linear-gradient(top, #444444, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+  background-image: -webkit-linear-gradient(top, #444444, #222222);
+  background-image: -o-linear-gradient(top, #444444, #222222);
+  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-repeat: repeat-x;
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); }
+
+/* line 1, C:/OpenServer/domains/Test/sass/partials/_mobMenu.scss */
+.wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear; }
+  /* line 7, C:/OpenServer/domains/Test/sass/partials/_mobMenu.scss */
+  .wrapper.open-sidebar {
+    left: 240px; }
+  /* line 10, C:/OpenServer/domains/Test/sass/partials/_mobMenu.scss */
+  .wrapper #sidebar {
+    position: absolute;
+    left: -240px;
+    background: #ee632f;
+    width: 240px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 17, C:/OpenServer/domains/Test/sass/partials/_mobMenu.scss */
+    .wrapper #sidebar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+    /* line 22, C:/OpenServer/domains/Test/sass/partials/_mobMenu.scss */
+    .wrapper #sidebar li {
+      margin: 0; }
+      /* line 24, C:/OpenServer/domains/Test/sass/partials/_mobMenu.scss */
+      .wrapper #sidebar li a {
+        padding: 15px 20px;
+        font-size: 16px;
+        font-weight: 100;
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid #ffffff;
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear;
+        text-transform: uppercase; }
+        /* line 34, C:/OpenServer/domains/Test/sass/partials/_mobMenu.scss */
+        .wrapper #sidebar li a:hover {
+          background: #f7f7f7;
+          color: #ee632f; }
+
+/* line 1, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+#header {
+  margin: 0 0 18px 0;
+  border-bottom: 1px solid #e4e4e4;
+  background: #f7f7f7;
+  position: relative; }
+  /* line 6, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .container {
+    border-top: 4px solid #ee632f;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 9, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+    #header .container:before {
+      content: " ";
+      width: 100%;
+      height: 4px;
+      background: #ededed;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 50; }
+    /* line 81, C:/OpenServer/domains/Test/sass/global/_mixins.scss */
+    #header .container:after:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+      font-size: 0;
+      line-height: 0; }
+  /* line 23, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .wrap {
+    display: inline-block; }
+    /* line 25, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+    #header .wrap #logo {
+      width: 290px;
+      height: 45px;
+      overflow: hidden;
+      text-indent: -99999px;
+      background: url(../images/ico/logo.png) no-repeat center;
+      -moz-background-size: contain;
+      -webkit-background-size: contain;
+      background-size: contain;
+      padding: 55px 0; }
+      /* line 33, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+      #header .wrap #logo a {
+        display: block;
+        height: 100%; }
+  /* line 39, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .button {
+    background: #ee632f;
+    display: inline-block;
+    position: relative;
+    padding: 8px 7px 5px 7px;
+    display: none !important;
+    position: absolute;
+    top: 10px;
+    left: 20px; }
+    /* line 48, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+    #header .button .bar {
+      display: block;
+      width: 18px;
+      margin-bottom: 3px;
+      height: 2px;
+      background-color: #fff;
+      border-radius: 1px; }
+      /* line 55, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+      #header .button .bar:last-child {
+        margin-bottom: 0; }
+  /* line 60, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header #sidebar-toggle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none !important;
+    z-index: 50; }
+
+@media (max-width: 978px) {
+  /* line 77, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header #sidebar-toggle {
+    display: block; }
+  /* line 80, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .button {
+    display: inline-block; }
+  /* line 83, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .wrap {
+    height: 155px; }
+  /* line 86, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .wrap #logo {
+    width: 200px;
+    height: 25px;
+    padding: 65px 0; } }
+
+@media (max-width: 748px) {
+  /* line 100, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header {
+    padding: 20px 0;
+    margin: 0 0 18px 0;
+    border: none; }
+  /* line 105, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .wrap {
+    height: 100%; }
+  /* line 108, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .wrap #logo {
+    height: 40px;
+    padding: 0; }
+  /* line 112, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .container {
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 115, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+    #header .container:before {
+      display: none; } }
+
+@media (max-width: 683px) {
+  /* line 121, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .wrap {
+    height: 45px; }
+  /* line 124, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .wrap #logo {
+    width: 290px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 60; }
+  /* line 133, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header #sidebar-toggle {
+    display: block !important; }
+  /* line 136, C:/OpenServer/domains/Test/sass/partials/_header.scss */
+  #header .button {
+    display: block !important; } }
+
+/* line 1, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+#nav {
+  float: right; }
+  /* line 3, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+  #nav ul {
+    padding: 0;
+    line-height: 155px; }
+  /* line 7, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+  #nav li {
+    padding: 0 0 0 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    font: 14px "Open Sans", sans-serif;
+    margin: 0; }
+    /* line 13, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+    #nav li:before {
+      display: none; }
+    /* line 16, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+    #nav li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #6a6a6b;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear; }
+      /* line 22, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+      #nav li a:hover {
+        color: #ee632f; }
+
+@media (max-width: 978px) {
+  /* line 36, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+  #nav li {
+    font-size: 12px; } }
+
+@media (max-width: 748px) {
+  /* line 48, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+  #nav ul {
+    line-height: 40px; }
+  /* line 51, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+  #nav li {
+    font-size: 10px; } }
+
+@media (max-width: 683px) {
+  /* line 56, C:/OpenServer/domains/Test/sass/partials/_nav.scss */
+  #nav {
+    display: none; } }
+
+/* line 1, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+.buckets {
+  padding: 0; }
+  /* line 3, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .breadcrumps, .buckets .pageName {
+    font: 700 11px "MyriadPro-Regular", sans-serif;
+    color: #ee632f;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0 20px 0;
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 12, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .pageName {
+    color: #5e5e5e; }
+    /* line 15, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .pageName:before {
+      content: " : "; }
+  /* line 19, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .mobileSearch {
+    background: #f7f7f7;
+    height: 80px;
+    border: 1px solid #ededed;
+    padding: 0;
+    margin: 0 0 30px 0;
+    display: none; }
+    /* line 26, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .mobileSearch input[type="submit"] {
+      width: 80px;
+      height: 70px;
+      margin: 5px 0;
+      padding: 0;
+      border: none;
+      background: #f7f7f7;
+      border-right: 1px solid #ededed;
+      font: 30px "fontello";
+      color: #ee632f; }
+    /* line 37, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .mobileSearch input[type="search"] {
+      background: #f7f7f7;
+      font: 15px "Open Sans", sans-serif;
+      color: #5e5e5e;
+      border: none;
+      padding: 0 0 0 15px;
+      width: 64%; }
+    /* line 45, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .mobileSearch input[type="search"]::-webkit-input-placeholder {
+      color: #5e5e5e; }
+  /* line 49, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketTop {
+    width: 100%;
+    line-height: 0;
+    font-size: 0; }
+    /* line 53, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .bucketTop .left {
+      width: 42%;
+      background: url(../images/img.jpg);
+      -moz-background-size: content;
+      -webkit-background-size: content;
+      background-size: content;
+      display: inline-block;
+      height: 315px;
+      margin: 0 0 20px 0;
+      vertical-align: middle;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      /* line 63, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketTop .left .wrap {
+        display: none;
+        background: rgba(50, 50, 50, 0.85);
+        width: 100%;
+        height: 50%;
+        vertical-align: bottom;
+        -moz-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%); }
+      /* line 71, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketTop .left .introCopy {
+        font: 400 18px "MyriadPro-Regular", sans-serif;
+        line-height: normal;
+        color: #ee632f;
+        display: block;
+        padding: 20px 10px 25px 20px; }
+      /* line 78, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketTop .left .dataCopy, .buckets .bucketTop .left .valueCopy {
+        color: #ee632f;
+        font: 300 10px "Open Sans", sans-serif;
+        text-transform: uppercase;
+        line-height: normal;
+        display: inline-block;
+        padding: 0 0 0 20px;
+        vertical-align: middle; }
+        /* line 86, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+        .buckets .bucketTop .left .dataCopy:after, .buckets .bucketTop .left .valueCopy:after {
+          color: #ffffff;
+          content: " / "; }
+        /* line 90, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+        .buckets .bucketTop .left .dataCopy span, .buckets .bucketTop .left .valueCopy span {
+          color: #ffffff; }
+      /* line 94, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketTop .left .valueCopy {
+        padding: 0 10px 0 0; }
+        /* line 97, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+        .buckets .bucketTop .left .valueCopy:after {
+          display: none; }
+  /* line 103, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .right {
+    display: inline-block;
+    width: 58%;
+    vertical-align: top;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #323232;
+    padding: 20px 0 0 0; }
+    /* line 111, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .right .intro {
+      font: 600 22px "Open Sans", sans-serif;
+      line-height: normal;
+      color: #ee632f;
+      display: block;
+      padding: 0 10px 10px 20px; }
+    /* line 118, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .right .data, .buckets .right .value {
+      color: #ee632f;
+      font: 300 10px "Open Sans", sans-serif;
+      text-transform: uppercase;
+      line-height: normal;
+      display: inline-block;
+      padding: 0 0 0 20px;
+      vertical-align: middle; }
+      /* line 126, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .right .data:after, .buckets .right .value:after {
+        color: #ffffff;
+        content: " / "; }
+      /* line 130, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .right .data span, .buckets .right .value span {
+        color: #ffffff; }
+    /* line 134, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .right .value {
+      padding: 0 10px 0 0; }
+      /* line 137, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .right .value:after {
+        display: none; }
+  /* line 142, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .text {
+    position: relative;
+    background: red; }
+    /* line 145, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .text .more {
+      font: 300 16px "Open Sans", sans-serif;
+      color: #ffffff;
+      line-height: normal;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 400;
+      background: #323232;
+      padding: 0 10px 39px 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      /* line 156, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .text .more a {
+        font-weight: 600;
+        border: 1px solid #ee632f;
+        padding: 13px 0 0 0;
+        width: 113px;
+        text-align: center;
+        margin-top: 20px;
+        vertical-align: bottom; }
+        /* line 164, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+        .buckets .text .more a:after {
+          content: ' ';
+          position: relative;
+          display: block;
+          width: 0;
+          height: 0;
+          top: 25px;
+          left: 430px;
+          border: 8px solid transparent;
+          border-right: 8px solid #ee632f;
+          border-bottom: 8px solid #ee632f; }
+  /* line 178, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .morecontent span {
+    display: none; }
+  /* line 181, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .morelink {
+    display: block; }
+  /* line 184, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper {
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    line-height: 0;
+    font-size: 1px;
+    text-justify: newspaper; }
+    /* line 186, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .bucketWrapper .bucket {
+      height: 315px;
+      width: 260px;
+      display: inline-block;
+      margin-bottom: 20px;
+      vertical-align: middle;
+      background: url(../images/img.jpg);
+      position: relative;
+      vertical-align: top; }
+      /* line 195, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucket:hover .wrap {
+        border-bottom: 4px solid #ee632f;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      /* line 199, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucket:hover .introCopy {
+        color: #ee632f; }
+      /* line 202, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucket:before {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        bottom: 15px;
+        right: 15px;
+        border: 8px solid transparent;
+        border-right: 8px solid #ee632f;
+        border-bottom: 8px solid #ee632f;
+        z-index: 40; }
+      /* line 215, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucket .wrap {
+        display: block;
+        background: rgba(50, 50, 50, 0.85);
+        width: 100%;
+        height: 50%;
+        vertical-align: bottom;
+        -moz-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear; }
+      /* line 224, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucket .introCopy {
+        font: 400 18px "MyriadPro-Regular", sans-serif;
+        line-height: normal;
+        color: #ffffff;
+        display: block;
+        padding: 20px 10px 25px 20px;
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear; }
+      /* line 232, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucket .dataCopy, .buckets .bucketWrapper .bucket .valueCopy {
+        color: #ee632f;
+        font: 300 10px "Open Sans", sans-serif;
+        text-transform: uppercase;
+        line-height: normal;
+        display: inline-block;
+        padding: 0 0 0 20px;
+        vertical-align: middle; }
+        /* line 240, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+        .buckets .bucketWrapper .bucket .dataCopy:after, .buckets .bucketWrapper .bucket .valueCopy:after {
+          color: #ffffff;
+          content: " / "; }
+        /* line 244, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+        .buckets .bucketWrapper .bucket .dataCopy span, .buckets .bucketWrapper .bucket .valueCopy span {
+          color: #ffffff; }
+      /* line 248, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucket .valueCopy {
+        padding: 0 10px 0 0; }
+        /* line 251, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+        .buckets .bucketWrapper .bucket .valueCopy:after {
+          display: none; }
+    /* line 256, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .bucketWrapper .bucketInfo {
+      width: 545px;
+      height: 315px;
+      background: url(../images/img2.jpg);
+      display: inline-block;
+      margin-bottom: 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: relative; }
+      /* line 264, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucketInfo:after {
+        content: " ";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #ee632f;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 30;
+        opacity: 0.97; }
+      /* line 276, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucketInfo:before {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        bottom: 15px;
+        right: 15px;
+        border: 8px solid transparent;
+        border-right: 8px solid #ffffff;
+        border-bottom: 8px solid #ffffff;
+        z-index: 40; }
+      /* line 289, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucketInfo img {
+        width: 68px;
+        height: 71px;
+        position: relative;
+        z-index: 40;
+        padding: 30px 0 20px 30px; }
+      /* line 296, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucketInfo .bucketInfo_h2, .buckets .bucketWrapper .bucketInfo p, .buckets .bucketWrapper .bucketInfo a {
+        font-size: 23px;
+        color: #ffffff;
+        padding: 0 20px 20px 30px;
+        margin: 0;
+        position: relative;
+        z-index: 40; }
+      /* line 304, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucketInfo p {
+        font-size: 16px; }
+      /* line 308, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+      .buckets .bucketWrapper .bucketInfo a {
+        font-size: 20px;
+        border: 1px solid #ffffff;
+        margin: 0 60px 1px 30px;
+        color: #ffffff;
+        padding: 15px 0;
+        display: block;
+        text-align: center;
+        width: 200px; }
+    /* line 321, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .bucketWrapper .bucketFake {
+      width: 545px;
+      height: 0;
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      border: none; }
+
+@media (max-width: 1248px) {
+  /* line 339, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .right .intro {
+    font-size: 20px;
+    padding: 0 10px 19px 20px; }
+  /* line 344, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .text .more a:after {
+    top: 25px;
+    left: 335px; }
+  /* line 349, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucket {
+    width: 48%; }
+  /* line 352, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucketInfo {
+    width: 48%; } }
+
+@media (max-width: 978px) {
+  /* line 364, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .breadcrumps, .buckets .pageName, .buckets .pageName {
+    display: none; }
+  /* line 367, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .mobileSearch {
+    display: block; }
+  /* line 371, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .text .more a:after {
+    top: 25px;
+    left: 380px; } }
+
+@media (max-width: 748px) {
+  /* line 386, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .text .more a:after {
+    top: 25px;
+    left: 355px; } }
+
+@media (max-width: 683px) {
+  /* line 394, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucket .wrap .introCopy {
+    color: #ee632f; }
+  /* line 397, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucketInfo img {
+    padding: 30px 0 20px 100px; }
+  /* line 400, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucketInfo .bucketInfo_h2, .buckets .bucketWrapper .bucketInfo p, .buckets .bucketWrapper .bucketInfo a {
+    font-size: 18px;
+    text-align: center; }
+  /* line 404, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucketInfo p {
+    font-size: 15px;
+    text-align: left; }
+  /* line 408, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucketInfo a {
+    font-size: 15px; } }
+
+@media (max-width: 530px) {
+  /* line 413, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucket {
+    display: block;
+    width: 100%;
+    max-width: 390px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  /* line 420, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketWrapper .bucketInfo {
+    width: 100%;
+    max-width: 390px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  /* line 427, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketTop .left {
+    width: 100%;
+    max-width: 390px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative; }
+    /* line 434, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+    .buckets .bucketTop .left:before {
+      content: " ";
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: 15px;
+      right: 15px;
+      border: 8px solid transparent;
+      border-right: 8px solid #ee632f;
+      border-bottom: 8px solid #ee632f;
+      z-index: 40;
+      display: block; }
+  /* line 448, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketTop .left .wrap {
+    display: block; }
+  /* line 451, C:/OpenServer/domains/Test/sass/partials/_buckets.scss */
+  .buckets .bucketTop .right {
+    display: none; } }
+
+/* line 2, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+.news .search, .news .search input[type="search"] {
+  background: #f7f7f7;
+  height: 80px;
+  border: 1px solid #ededed;
+  padding: 0; }
+  /* line 7, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news .search input[type="submit"] {
+    width: 80px;
+    height: 70px;
+    margin: 5px 0;
+    padding: 0;
+    border: none;
+    background: #f7f7f7;
+    border-right: 1px solid #ededed;
+    font: 30px "fontello";
+    color: #ee632f; }
+  /* line 18, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news .search input[type="search"] {
+    font: 15px "Open Sans", sans-serif;
+    color: #5e5e5e;
+    border: none;
+    padding-left: 15px;
+    width: 70%; }
+  /* line 26, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news .search input[type="search"]::-webkit-input-placeholder {
+    color: #5e5e5e; }
+
+/* line 30, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+.news ul {
+  padding: 20px 0 20px 0;
+  list-style-type: none; }
+  /* line 33, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news ul li {
+    text-transform: uppercase;
+    font: 600 13px "Open Sans", sans-serif;
+    color: #5e5e5e;
+    list-style-type: none;
+    padding: 15px 0 15px 10px;
+    margin: 0;
+    border-bottom: 1px solid #ededed;
+    position: relative; }
+    /* line 42, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news ul li:hover a {
+      color: #ee632f; }
+    /* line 45, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news ul li:hover .wrap {
+      border: 2px solid #ee632f; }
+    /* line 48, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news ul li:hover .arrow {
+      color: #ee632f; }
+    /* line 51, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news ul li:before {
+      display: none; }
+    /* line 54, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news ul li:last-child {
+      border: none; }
+    /* line 57, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news ul li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #5e5e5e; }
+  /* line 64, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news ul .wrap {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ededed;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear; }
+    /* line 74, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news ul .wrap .arrow {
+      font-family: "fontello";
+      font-size: 10px;
+      color: #ededed;
+      position: relative;
+      bottom: 2px;
+      left: 5px;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear; }
+
+/* line 86, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+.news .wrapper {
+  background: #ee632f;
+  display: block;
+  position: relative;
+  margin: 0; }
+  /* line 91, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news .wrapper a {
+    display: block;
+    width: 100%;
+    font-family: "MyriadPro-Regular", sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 20px 20px; }
+  /* line 99, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news .wrapper span {
+    font-weight: 700; }
+  /* line 102, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news .wrapper div {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear; }
+    /* line 112, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+    .news .wrapper div .arrow {
+      font-family: "fontello";
+      font-size: 10px;
+      color: #ffffff;
+      position: relative;
+      bottom: 5px;
+      left: 4px; }
+
+@media (max-width: 1248px) {
+  /* line 129, C:/OpenServer/domains/Test/sass/partials/_news.scss */
+  .news .search input[type="search"] {
+    width: 65%; } }
+
+/* line 1, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+.lowerBlock {
+  text-align: center; }
+  /* line 3, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+  .lowerBlock h2 {
+    font: 600 20px "Open Sans", sans-serif;
+    color: #ee632f;
+    padding-bottom: 20px; }
+    /* line 7, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock h2 span {
+      color: #5e5e5e;
+      font-size: 18px;
+      font-weight: 300;
+      display: block; }
+  /* line 14, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+  .lowerBlock .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px 0 30px 0;
+    border-top: 1px solid #ededed;
+    position: relative; }
+    /* line 20, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper:before {
+      top: 0;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      position: absolute;
+      border-top-color: #ededed;
+      border-width: 7px;
+      margin-left: -7px;
+      -moz-transform: scale(1.5, 1);
+      -o-transform: scale(1.5, 1);
+      -ms-transform: scale(1.5, 1);
+      -webkit-transform: scale(1.5, 1);
+      transform: scale(1.5, 1); }
+    /* line 31, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper img {
+      padding-bottom: 50px; }
+    /* line 81, C:/OpenServer/domains/Test/sass/global/_mixins.scss */
+    .lowerBlock .wrapper form:after:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+      font-size: 0;
+      line-height: 0; }
+    /* line 39, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper input {
+      line-height: 65px;
+      border: 1px solid #ededed;
+      background: #f7f7f7;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear;
+      color: #5e5e5e; }
+      /* line 45, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .wrapper input:hover::-webkit-input-placeholder {
+        color: #ee632f; }
+      /* line 48, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .wrapper input:hover {
+        border: 1px solid #ee632f; }
+      /* line 51, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .wrapper input:focus::-webkit-input-placeholder {
+        color: transparent;
+        text-indent: 500px; }
+    /* line 56, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper input::-webkit-input-placeholder {
+      color: #5e5e5e;
+      text-indent: 0px;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear; }
+    /* line 61, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper .name, .lowerBlock .wrapper .lastName {
+      display: inline-block;
+      width: 48%;
+      vertical-align: middle; }
+    /* line 66, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper .name {
+      float: left; }
+    /* line 69, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper .lastName {
+      float: right; }
+    /* line 72, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper .message {
+      height: 325px;
+      border: 1px solid #ededed;
+      background: #f7f7f7;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear;
+      color: #5e5e5e;
+      text-indent: 0px;
+      resize: none;
+      padding-bottom: 60px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-bottom: 55px; }
+      /* line 83, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .wrapper .message:hover::-webkit-input-placeholder {
+        color: #ee632f; }
+      /* line 86, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .wrapper .message:hover {
+        border: 1px solid #ee632f; }
+      /* line 89, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .wrapper .message:focus::-webkit-input-placeholder {
+        color: transparent;
+        text-indent: 500px;
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear; }
+    /* line 95, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper textarea::-webkit-input-placeholder {
+      color: #5e5e5e;
+      text-indent: 0px;
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear; }
+    /* line 100, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper .button {
+      width: 92px;
+      height: 92px;
+      background-color: #323232;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 100px;
+      left: 50%;
+      background: #323232 url(../images/ico/ico2.svg) center center no-repeat;
+      -moz-transform: translateX(-50%) rotate(225deg);
+      -o-transform: translateX(-50%) rotate(225deg);
+      -ms-transform: translateX(-50%) rotate(225deg);
+      -webkit-transform: translateX(-50%) rotate(225deg);
+      transform: translateX(-50%) rotate(225deg);
+      -webkit-transition: all 400ms linear;
+      transition: all 400ms linear;
+      box-shadow: 0 0 20px 20px #fff; }
+      /* line 112, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .wrapper .button:hover {
+        -moz-transform: translateX(-50%) rotate(270deg);
+        -o-transform: translateX(-50%) rotate(270deg);
+        -ms-transform: translateX(-50%) rotate(270deg);
+        -webkit-transform: translateX(-50%) rotate(270deg);
+        transform: translateX(-50%) rotate(270deg); }
+    /* line 116, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .wrapper input[type="submit"] {
+      background: none;
+      border: none;
+      font: 600 15px "Open Sans", sans-serif;
+      color: #a4a4a4;
+      text-transform: uppercase;
+      padding: 20px; }
+  /* line 128, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+  .lowerBlock .customSelect {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-right: 10px; }
+    /* line 134, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .customSelect select.custom {
+      position: absolute;
+      left: -999em;
+      border: 1px solid #ededed; }
+      /* line 138, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .customSelect select.custom option {
+        font-weight: normal;
+        display: block;
+        white-space: pre;
+        min-height: 1.2em;
+        padding: 0px 2px 1px;
+        line-height: 65px;
+        color: #5e5e5e; }
+    /* line 149, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .customSelect .selectedValueWrap:hover .caret {
+      border: 1px solid blue !important; }
+    /* line 153, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .customSelect .selectedValue {
+      margin-bottom: 15px;
+      border: 1px solid #ededed;
+      background: #f7f7f7;
+      cursor: pointer;
+      color: #5e5e5e; }
+      /* line 159, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .customSelect .selectedValue:hover {
+        border: 1px solid #ee632f;
+        color: #ee632f; }
+      /* line 163, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .customSelect .selectedValue:hover #screen {
+        fill: #fff; }
+    /* line 167, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .customSelect .caret {
+      position: absolute;
+      top: 22px;
+      right: 40px; }
+      /* line 171, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .customSelect .caret:before {
+        content: " ";
+        width: 20px;
+        height: 20px;
+        background: url(../images/ico/ico1.svg) center center no-repeat; }
+        /* line 176, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+        .lowerBlock .customSelect .caret:before:hover {
+          fill: #fff; }
+    /* line 181, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+    .lowerBlock .customSelect .selectList {
+      z-index: 100;
+      position: absolute;
+      left: -999em;
+      top: -999em;
+      padding: 5px 0;
+      margin: 2px 0 0; }
+      /* line 188, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .customSelect .selectList dl {
+        margin: 0;
+        border-bottom: 1px solid #ededed; }
+      /* line 192, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+      .lowerBlock .customSelect .selectList dd {
+        background: #f7f7f7;
+        border: none;
+        border-right: 1px solid #ededed;
+        border-left: 1px solid #ededed;
+        border-bottom: none;
+        cursor: pointer;
+        color: #5e5e5e;
+        margin: 0;
+        -webkit-transition: all 400ms linear;
+        transition: all 400ms linear; }
+        /* line 202, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+        .lowerBlock .customSelect .selectList dd:hover {
+          background: rgba(50, 50, 50, 0.85);
+          color: #ffffff;
+          padding: 0 30px; }
+
+@media (max-width: 978px) {
+  /* line 219, C:/OpenServer/domains/Test/sass/partials/_lowerBlock.scss */
+  .lowerBlock .wrapper {
+    width: 95%; } }
+
+/* line 2, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .top {
+  border-top: 1px solid #ededed;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  margin: 0 0 30px 0; }
+
+/* line 9, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .wrap {
+  border-right: 1px solid #ededed;
+  display: inline-block;
+  vertical-align: middle; }
+  /* line 13, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+  #footer .wrap:last-child {
+    border: none; }
+
+/* line 17, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .circle1, #footer .circle2, #footer .circle3, #footer .circle4 {
+  border: 2px solid;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin: 20px 35px; }
+  /* line 24, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+  #footer .circle1 a, #footer .circle2 a, #footer .circle3 a, #footer .circle4 a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+/* line 30, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .circle1 {
+  border-color: #3d7dc6;
+  color: #3d7dc6;
+  background: url(../images/ico/soc_ico1.svg) center -10px no-repeat; }
+
+/* line 35, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .circle2 {
+  border-color: #14aef6;
+  color: #14aef6;
+  background: url(../images/ico/soc_ico2.svg) center center no-repeat; }
+
+/* line 40, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .circle3 {
+  border-color: #945bc0;
+  color: #945bc0;
+  background: url(../images/ico/soc_ico3.svg) 4.5px 5px no-repeat; }
+
+/* line 45, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .circle4 {
+  border-color: #c12424;
+  color: #c12424;
+  background: url(../images/ico/soc_ico4.svg) center -6px no-repeat; }
+
+/* line 50, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+#footer .bot {
+  text-align: center; }
+  /* line 52, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+  #footer .bot p {
+    font: 15px "MyriadPro-Regular", sans-serif;
+    color: #5e5e5e;
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 59, C:/OpenServer/domains/Test/sass/partials/_footer.scss */
+  #footer .bot span {
+    color: #ee632f; }
+
+/*# sourceMappingURL=all.css.map */

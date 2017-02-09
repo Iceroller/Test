@@ -1,0 +1,232 @@
+.lowerBlock{
+    text-align: center;
+    h2{
+        font: 600 20px $brand-font-1;
+        color: $primary-color;
+        padding-bottom: 20px;
+        span{
+            color: $font-color-2;
+            font-size: 18px;
+            font-weight: 300;
+            display: block;
+        }
+    }
+    .wrapper{
+        width: 70%;
+        margin: 0 auto;
+        padding: 60px 0 30px 0;
+        border-top: 1px solid $border-color;
+        position: relative;
+        &:before{
+            top: 0;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            position: absolute;
+	        border-top-color: $border-color;
+	        border-width: 7px;
+	        margin-left: -7px;
+            @include transform(scale(1.5, 1));
+        }
+        img{
+            padding-bottom: 50px;
+        }
+        form{
+            &:after{
+                @include clearfix;
+            }
+        }
+        input{
+            line-height: 65px;
+            border: 1px solid $border-color;
+            background: $secondary-color;
+            @include transition-treatment_2;
+            color: $font-color-2;
+            &:hover::-webkit-input-placeholder{
+                color: $primary-color;
+            }
+            &:hover{
+                border: 1px solid $primary-color;
+            }
+            &:focus::-webkit-input-placeholder{
+                color: transparent;
+                text-indent: 500px;
+            }
+        }
+        input::-webkit-input-placeholder{
+            color: $font-color-2; 
+            text-indent: 0px;
+            @include transition-treatment_2;
+        }
+        .name, .lastName{
+            display: inline-block;
+            width: 48%;
+            vertical-align: middle;
+        }
+        .name{ 
+            float: left;
+        }
+        .lastName{
+            float: right;
+        }
+        .message{
+            height: 325px;
+            border: 1px solid $border-color;
+            background: $secondary-color;
+            @include transition-treatment_2;
+            color: $font-color-2;
+            text-indent: 0px;
+            resize: none;
+            padding-bottom: 60px;
+            @include box-treatment;
+            margin-bottom: 55px;
+            &:hover::-webkit-input-placeholder{
+                color: $primary-color;
+            }
+            &:hover{
+                border: 1px solid $primary-color;
+            }
+            &:focus::-webkit-input-placeholder{
+                color: transparent;
+                text-indent: 500px;
+                @include transition-treatment_2;
+            }
+        }
+        textarea::-webkit-input-placeholder{
+            color: $font-color-2; 
+            text-indent: 0px;
+            @include transition-treatment_2;
+        }
+        .button{
+            width: 92px;
+            height: 92px;
+            background-color: $bg-color-1;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 100px;
+            left: 50%;
+            background: $bg-color-1 url(../images/ico/ico2.svg) center center no-repeat;
+            @include transform(translateX(-50%) rotate(225deg));
+            @include transition-treatment_2;
+            box-shadow: 0 0 20px 20px #fff;
+            &:hover{
+                @include transform(translateX(-50%) rotate(270deg));
+            }
+        }
+        input[type="submit"]{
+            background: none;
+            border: none;
+            font: 600 15px $brand-font-1;
+            color: $font-color-3;
+            text-transform: uppercase;
+            padding: 20px;
+        }
+    }
+//  
+//         SELECT
+//
+    .customSelect{
+        position: relative;
+        font-size: 15px;
+        font-family:  Arial, Helvetica, sans-serif;
+        float: left;
+        margin-right: 10px;
+        select.custom{
+            position: absolute;
+            left: -999em;
+            border: 1px solid $border-color;
+            option {
+                font-weight: normal;
+                display: block;
+                white-space: pre;
+                min-height: 1.2em;
+                padding: 0px 2px 1px;
+                line-height: 65px;
+                color: $font-color-2;
+            }
+        }
+        .selectedValueWrap{
+            &:hover .caret{
+                border: 1px solid blue !important;
+            }
+        }
+        .selectedValue {
+            margin-bottom: 15px;
+            border: 1px solid $border-color;
+            background: $secondary-color;
+            cursor: pointer;
+            color: $font-color-2;
+            &:hover{
+                border: 1px solid $primary-color;
+                color: $primary-color;
+            }  
+            &:hover #screen{
+                fill: #fff;
+            }
+        }
+        .caret {
+            position: absolute;
+            top: 22px;
+            right: 40px;
+            &:before{
+                content: " ";
+                width: 20px;
+                height: 20px;
+                background: url(../images/ico/ico1.svg) center center no-repeat;
+                &:hover{
+                    fill: #fff;
+                }
+            }
+        }
+        .selectList {
+            z-index: 100;
+            position: absolute;
+            left: -999em;
+            top: -999em;
+            padding: 5px 0;
+            margin: 2px 0 0;
+            dl {
+                margin: 0;
+                border-bottom:  1px solid $border-color;
+            }
+            dd {
+                background: $secondary-color; 
+                border: none;
+                border-right: 1px solid $border-color;
+                border-left: 1px solid $border-color;
+                border-bottom: none;
+                cursor: pointer;
+                color: $font-color-2;
+                margin: 0;
+                @include transition-treatment_2;
+                &:hover{
+                    background: $bg-color-2;
+                    color: $font-color-1;
+                    padding: 0 30px;
+                }
+            }
+        }
+    } 
+}
+
+////////////////////////////////
+
+//           TAB
+
+///////////////////////////////
+
+@media (max-width: $wds){
+    .lowerBlock .wrapper{
+        width: 95%;
+    }
+}
+
+////////////////////////////////
+
+//           MOBILE
+
+///////////////////////////////
+
+@media (max-width: $wt){
+    
+}
